@@ -1,1 +1,1 @@
-# statistical-methods-project
+# statistical-methods
