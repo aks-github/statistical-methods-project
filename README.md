@@ -1,4 +1,4 @@
-# statistical-methods
+# Statistical Methods
 
 
 The Project Description
@@ -10,11 +10,10 @@ Requirements – Use any software to obtain the sample mean and sample standard 
 
 ## Part 2: Describe your data
 Requirements – Use any software to draw the following plots:
-
-	1. A histogram for each column (hint: four histograms total)
-	2. A time series plot for each column (hint: use the series “1, 2, 3, …, 1000” as the horizontal axis; four plots total)
-	3. A time series plot for all four columns (hint: one plot including four “curves” and each “curve” describes one column)
-	4. Three scatter plots to describe the relationships between the ETF column and the OIL column; between the ETF column and the GOLD column; between the ETF column and the JPM column, respectively.
+1. A histogram for each column (hint: four histograms total)
+2. A time series plot for each column (hint: use the series “1, 2, 3, …, 1000” as the horizontal axis; four plots total)
+3. A time series plot for all four columns (hint: one plot including four “curves” and each “curve” describes one column)
+4. Three scatter plots to describe the relationships between the ETF column and the OIL column; between the ETF column and the GOLD column; between the ETF column and the JPM column, respectively.
 
 
 ## Part 3: What distribution does your data follow
@@ -23,52 +22,52 @@ Requirements – Propose an assumption/a hypothesis regarding the type of distri
 
 ## Part 4: Break your data into small groups and let them discuss the importance of the Central Limit Theorem
 Requirements – Consider the ETF column (1000 values) as the population (x), and do the follows. Any software may be used.
-	1) Calculate the mean 𝜇𝑥 and the standard deviation 𝜎𝑥 of the population.
-	2) Break the population into 50 groups sequentially and each group includes 20 values.
-	3) Calculate the sample mean (𝑥) of each group. Draw a histogram of all the sample means. Comment on the distribution of these sample means, i.e., use the histogram to assess the normality of the data consisting of these sample means.
-	4) Calculate the mean (𝜇𝑥) and the standard deviation (𝜎𝑥) of the data including these sample means. Make a comparison between 𝜇𝑥 and 𝜇𝑥 , between 𝜎𝑥√𝑛 and 𝜎𝑥 . Here, 𝑛 is the number of sample means calculated from Item 3) above.
-	5) Are the results from Items 3) and 4) consistent with the Central Limit Theorem? Why?
-	6) Break the population into 10 groups sequentially and each group includes 100 values.
-	7) Repeat Items 3) ~ 5).
-	8) Generate 50 simple random samples or groups (with replacement) from the population. The size of each sample is 20, i.e., each group includes 20 values.
-	9) Repeat Items 3) ~ 5).
-	10) Generate 10 simple random samples or groups (with replacement) from the population. The size of each sample is 100, i.e., each group includes 100 values.
-	11) Repeat Items 3) ~ 5).
-	12) In Part 3 of the project, you have figured out the distribution of the population (the entire ETF column). Does this information have any impact on the distribution of the sample mean(s)? Explain your answer.
+1) Calculate the mean 𝜇𝑥 and the standard deviation 𝜎𝑥 of the population.
+2) Break the population into 50 groups sequentially and each group includes 20 values.
+3) Calculate the sample mean (𝑥) of each group. Draw a histogram of all the sample means. Comment on the distribution of these sample means, i.e., use the histogram to assess the normality of the data consisting of these sample means.
+4) Calculate the mean (𝜇𝑥) and the standard deviation (𝜎𝑥) of the data including these sample means. Make a comparison between 𝜇𝑥 and 𝜇𝑥 , between 𝜎𝑥√𝑛 and 𝜎𝑥 . Here, 𝑛 is the number of sample means calculated from Item 3) above.
+5) Are the results from Items 3) and 4) consistent with the Central Limit Theorem? Why?
+6) Break the population into 10 groups sequentially and each group includes 100 values.
+7) Repeat Items 3) ~ 5).
+8) Generate 50 simple random samples or groups (with replacement) from the population. The size of each sample is 20, i.e., each group includes 20 values.
+9) Repeat Items 3) ~ 5).
+10) Generate 10 simple random samples or groups (with replacement) from the population. The size of each sample is 100, i.e., each group includes 100 values.
+11) Repeat Items 3) ~ 5).
+12) In Part 3 of the project, you have figured out the distribution of the population (the entire ETF column). Does this information have any impact on the distribution of the sample mean(s)? Explain your answer.
 	
 	
 ## Part 5: Construct a confidence interval with your data
 Requirements –
-	1) Pick up one of the 10 simple random samples you generated in Step 10) of Part 4, construct an appropriate 95% confidence interval of the mean 𝜇.
-	2) Pick up one of the 50 simple random samples you generated in Step 8) of Part 4, construct an appropriate 95% confidence interval of the mean 𝜇.
-	3) In Part 1, you have calculated the mean 𝜇 of the population (the entire ETF column) using Excel function. Do the two intervals from 1) and 2) above include (the true value of) the mean 𝜇? Which one is more accurate? Why?
+1) Pick up one of the 10 simple random samples you generated in Step 10) of Part 4, construct an appropriate 95% confidence interval of the mean 𝜇.
+2) Pick up one of the 50 simple random samples you generated in Step 8) of Part 4, construct an appropriate 95% confidence interval of the mean 𝜇.
+3) In Part 1, you have calculated the mean 𝜇 of the population (the entire ETF column) using Excel function. Do the two intervals from 1) and 2) above include (the true value of) the mean 𝜇? Which one is more accurate? Why?
 	
 	
 ## Part 6: Form a hypothesis and test it with your data
 Requirements –
-	1) Use the same sample you picked up in Step 1) of Part 5 to test 𝑯𝟎: 𝝁=𝟏𝟎𝟎 vs. 𝑯𝒂: 𝝁≠𝟏𝟎𝟎 at the significance level 0.05. What’s your conclusion?
-	2) Use the same sample you picked up in Step 2) of Part 5 to test 𝑯𝟎: 𝝁=𝟏𝟎𝟎 vs. 𝑯𝒂: 𝝁≠𝟏𝟎𝟎 at the significance level 0.05. What’s your conclusion?
-	3) Use the same sample you picked up in Step 2) of Part 5 to test 𝑯𝟎: 𝝈=𝟏𝟓 vs. 𝑯𝒂: 𝝈≠𝟏𝟓 at the significance level 0.05. What’s your conclusion?
-	4) Use the same sample you picked up in Step 2) of Part 5 to test 𝑯𝟎: 𝝈=𝟏𝟓 vs. 𝑯𝒂: 𝝈<𝟏𝟓 at the significance level 0.05. What’s your conclusion?
+1) Use the same sample you picked up in Step 1) of Part 5 to test 𝑯𝟎: 𝝁=𝟏𝟎𝟎 vs. 𝑯𝒂: 𝝁≠𝟏𝟎𝟎 at the significance level 0.05. What’s your conclusion?
+2) Use the same sample you picked up in Step 2) of Part 5 to test 𝑯𝟎: 𝝁=𝟏𝟎𝟎 vs. 𝑯𝒂: 𝝁≠𝟏𝟎𝟎 at the significance level 0.05. What’s your conclusion?
+3) Use the same sample you picked up in Step 2) of Part 5 to test 𝑯𝟎: 𝝈=𝟏𝟓 vs. 𝑯𝒂: 𝝈≠𝟏𝟓 at the significance level 0.05. What’s your conclusion?
+4) Use the same sample you picked up in Step 2) of Part 5 to test 𝑯𝟎: 𝝈=𝟏𝟓 vs. 𝑯𝒂: 𝝈<𝟏𝟓 at the significance level 0.05. What’s your conclusion?
 	
 	
 ## Part 7: Compare your data with a different data set
 Requirements –
-	1) Consider the entire Gold column as a random sample from the first population, and the entire Oil column as a random sample from the second population. Assuming these two samples be drawn independently, form a hypothesis and test it to see if the Gold and Oil have equal means in the significance level 0.05.
-	2) Subtract the entire Gold column from the entire Oil column and generate a sample of differences. Consider this sample as a random sample from the target population of differences between Gold and Oil. Form a hypothesis and test it to see if the Gold and Oil have equal means in the significance level 0.05.
-	3) Consider the entire Gold column as a random sample from the first population, and the entire Oil column as a random sample from the second population. Assuming these two samples be drawn independently, form a hypothesis and test it to see if the Gold and Oil have equal standard deviations in the significance level 0.05.
+1) Consider the entire Gold column as a random sample from the first population, and the entire Oil column as a random sample from the second population. Assuming these two samples be drawn independently, form a hypothesis and test it to see if the Gold and Oil have equal means in the significance level 0.05.
+2) Subtract the entire Gold column from the entire Oil column and generate a sample of differences. Consider this sample as a random sample from the target population of differences between Gold and Oil. Form a hypothesis and test it to see if the Gold and Oil have equal means in the significance level 0.05.
+3) Consider the entire Gold column as a random sample from the first population, and the entire Oil column as a random sample from the second population. Assuming these two samples be drawn independently, form a hypothesis and test it to see if the Gold and Oil have equal standard deviations in the significance level 0.05.
 	
 	
 ## Part 8: Fitting the line to the data
 Requirements –
 Consider the data including the ETT column and Gold column only. Using any software,
-	1) Draw a scatter plot of ETF (Y) vs. Gold (X). Is there any linear relationship between them which can be observed from the scatter plot?
-	2) Calculate the coefficient of correlation between ETF and Gold and interpret it.
-	3) Fit a regression line (or least squares line, best fitting line) to the scatter plot. What are the intercept and slope of this line? How to interpret them?
-	4) Conduct a two-tailed t-test with 𝐻0: 𝛽1=0. What is the P-value of the test? Is the linear relationship between ETF (Y) and Gold (X) significant at the significance level 0.01? Why or why not?
-	5) Suppose that you use the coefficient of determination to assess the quality of this fitting. Is it a good model? Why or why not?
-	6) What are the assumptions you made for this model fitting?
-	7) Given the daily relative change in the gold price is 0.005127. Calculate the 99% confidence interval of the mean daily ETF return, and the 99% prediction interval of the individual daily ETF return.
+1) Draw a scatter plot of ETF (Y) vs. Gold (X). Is there any linear relationship between them which can be observed from the scatter plot?
+2) Calculate the coefficient of correlation between ETF and Gold and interpret it.
+3) Fit a regression line (or least squares line, best fitting line) to the scatter plot. What are the intercept and slope of this line? How to interpret them?
+4) Conduct a two-tailed t-test with 𝐻0: 𝛽1=0. What is the P-value of the test? Is the linear relationship between ETF (Y) and Gold (X) significant at the significance level 0.01? Why or why not?
+5) Suppose that you use the coefficient of determination to assess the quality of this fitting. Is it a good model? Why or why not?
+6) What are the assumptions you made for this model fitting?
+7) Given the daily relative change in the gold price is 0.005127. Calculate the 99% confidence interval of the mean daily ETF return, and the 99% prediction interval of the individual daily ETF return.
 	
 	
 ## Part 9: Does your model predict?
