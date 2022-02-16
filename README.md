@@ -1,5 +1,8 @@
 # Statistical Methods
 
+## Objective
+
+This project aims to perform exploratory data analysis using various statistical methods, visualization, hypothesis testing, Central Limit Theorem; construct a confidence interval with data. Verified candidacy for simple and multilinear regression models on data.
 
 The Project Description
 
